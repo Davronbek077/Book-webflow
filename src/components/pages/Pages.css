@@ -1,0 +1,441 @@
+.store-banner-section{
+    width: 100%;
+    border: none;
+    background-color: #1B3764;
+    padding-bottom: 65px;
+    padding-top: 50px;
+  }
+
+  .store-banner-section .container{
+    text-align: center;
+    width: 100%;
+    max-width: 430px;
+  }
+
+  .store-banner-section .container h2{
+    color: #FFFFFF;
+    font-family: "Cardo", serif;
+    padding-bottom: 25px;
+  }
+  .store-banner-section .container p{
+    color: #B4C7E7;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .store-book-img img{
+    width: 100%;
+  }
+
+  .book-name #name{
+    color: #1B3764;
+    font-family: "Cardo", serif;
+    font-size: 17px;
+  }
+
+  .book-name #price{
+    font-family: "Inter", sans-serif;
+    color: #FFCA42;
+    font-size: 11px;
+  }
+
+  .book-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .store-book{
+    width: 230px;
+  }
+
+  .book-info{
+    margin-top: 6px;
+  }
+
+  .book-info p{
+    color: #969AA0;
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .book-info h3{
+    color: #1B3764;
+    font-family: "Cardo", serif;
+    font-size: 14px;
+    padding-top: 8px;
+  }
+
+  .book-button button{
+    font-family: "Cardo", serif;
+    color: #1B3764;
+    font-size: 11px;
+    font-weight: 600;
+    border: 1px solid #FFCA42;
+    padding: 9px 28px;
+    background: none;
+    cursor: pointer;
+  }
+
+  .book-button{
+    margin-top: 13px;
+  }
+
+  .store-books-section .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 80px auto 0 auto;
+    max-width: 900px;
+  }
+  
+  .store-book {
+    flex: 1 1 calc(33.333% - 30px);
+    max-width: 260px;
+  }
+
+  .blog-banner-section{
+    width: 100%;
+    border: none;
+    background-color: #1B3764;
+    padding-bottom: 65px;
+    padding-top: 50px;
+  }
+
+  .blog-banner-section .container{
+    text-align: center;
+    width: 100%;
+    max-width: 430px;
+  }
+
+  .blog-banner-section .container h2{
+    color: #FFFFFF;
+    font-family: "Cardo", serif;
+    padding-bottom: 25px;
+  }
+  .blog-banner-section .container p{
+    color: #B4C7E7;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .blog-title{
+    text-align: center;
+    font-size: 25px;
+    color: #1B3764;
+  }
+
+  .blog-card {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+  }
+  
+  .blog-img{
+    width: 100%;
+  }
+  
+  .blog-img img{
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    display: block;
+    border-radius: 2px;
+  }
+  
+  .blog-text h3{
+    font-family: "Cardo", serif;
+    font-size: 16px;
+    color: #1B3764;
+    margin: 12px 0 8px;
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .blog-text p{
+    font-family: "Inter", sans-serif;
+    color: #969AA0;
+    font-size: 12px;
+    margin: 0 0 12px;
+    line-height: 1.4;
+    max-width: 100%;
+  }
+  
+  .blog-btm-text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 8px;
+    margin-top: auto;
+  }
+
+  .blog-text{   
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    box-shadow: 0 5px 30px 0 rgb(231, 231, 231);
+  }
+
+  .btm-txt p{
+    margin: 0;
+    font-size: 12px;
+    color: #80868C;
+  }
+
+  .blog-btm-text .btm-txt #read{
+    text-decoration: underline;
+    font-family: "Cardo", serif;
+    color: #1B3764;
+    font-weight: 700;
+    text-underline-offset: 4px;
+  }
+
+  .blog-btm-text .btm-txt #aut{
+    color: #1B3764;
+    font-family: "Inter", sans-serif;
+  }
+
+  .blog-section{
+    margin-top: 70px;
+    padding-top: 80px;
+    background-color: #F4F8FF;
+    padding-bottom: 70px;
+  }
+
+  .blog-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+
+  .blog-img img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    display: block;
+    border-radius: 2px 2px 0 0;
+  }
+  
+  .blog-text {
+    padding: 15px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .licenses-banner-section{
+    width: 100%;
+    border: none;
+    background-color: #1B3764;
+    padding-bottom: 65px;
+    padding-top: 50px;
+}
+
+.licenses-banner-section .container{
+    text-align: center;
+    width: 100%;
+    max-width: 430px;
+}
+
+.licenses-banner-section .container h2{
+    color: #FFFFFF;
+    font-family: "Cardo", serif;
+    padding-bottom: 25px;
+}
+  .licenses-banner-section .container p{
+    color: #B4C7E7;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+}
+  
+  @media (max-width: 900px) {
+    .blog-card {
+      flex: 1 1 calc(50% - 30px);
+      max-width: calc(50% - 30px);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .blog-card {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+
+  .blog-card-wrapper {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 270px);
+    gap: 10px;
+  }
+  
+  .blog-card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 30px 0 rgb(231, 231, 231);
+    margin-bottom: 25px;
+  }
+  
+  .blog-card-wrapper .blog-card:nth-last-child(-n + 3){
+    margin-bottom: 0;
+  }
+
+  .changelog-banner-section{
+    width: 100%;
+    border: none;
+    background-color: #1B3764;
+    padding-bottom: 65px;
+    padding-top: 50px;
+  }
+
+  .changelog-banner-section .container{
+    text-align: center;
+    width: 100%;
+    max-width: 430px;
+  }
+
+  .changelog-banner-section .container h2{
+    color: #FFFFFF;
+    font-family: "Cardo", serif;
+    padding-bottom: 25px;
+  }
+  .changelog-banner-section .container p{
+    color: #B4C7E7;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  
+  @media screen and (max-width: 892px) {
+    .store-books-section .container {
+      display: grid !important;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 30px;
+      max-width: 600px;
+      margin: 60px auto;
+    }
+  
+    .store-book {
+      width: 100% !important;
+      max-width: 100% !important;
+      flex: none !important;
+    }
+  
+    .store-book-img img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  
+    .book-name {
+      justify-content: space-between;
+    }
+  }
+
+@media screen and (max-width: 908px) {
+  .blog-card-wrapper {
+    grid-template-columns: repeat(2, 1fr) !important;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .blog-card {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .blog-card-wrapper {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+.licenses-wrapper .licenses-text h3, .licenses-wrapper .licenses-text h4{
+  font-family: "Cardo", serif;
+  color: #1B3764;
+}
+
+.licenses-wrapper{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.licenses-wrapper .licenses-text h4{
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.licenses-text p{
+  width: 100%;
+  max-width: 500px;
+  color: #969AA0;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.licenses-text p span{
+  font-weight: bold;
+  color: #1B3764;
+}
+
+.licenses-text{
+  margin-bottom: 40px;
+}
+
+.licenses-text:last-child{
+  margin-bottom: 0;
+}
+
+.changelog-wrap{
+  width: 100%;
+  max-width: 360px;
+  display: grid;
+  place-items: center;
+  background-color: #F3F3F3;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.changelog-wrap h2{
+  font-family: "Cardo", serif;
+  color: #1B3764;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  padding: 15px;
+  background-color: #FFCA42;
+  margin-bottom: 13px;
+}
+
+.changelog-wrap p{
+  color: #969AA0;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.changelog-section .container{
+  display: grid;
+  place-items: center;
+}

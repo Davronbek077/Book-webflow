@@ -1,0 +1,357 @@
+.book-detail {
+  margin-top: 80px;
+  }
+  
+  .book-detail .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .book-detail-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 50px;
+  }
+  
+  .book-image img {
+    width: 320px;
+  }
+  
+  .book-info {
+    flex: 1;
+  }
+  
+  .book-info h2 {
+    font-size: 23px;
+    color: #1b3764;
+    margin-bottom: 10px;
+    font-family: "Cardo", serif;
+  }
+  
+  .book-info .price {
+    color: #FFCA42;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: "Inter", sans-serif;
+
+  }
+  
+  .book-info .price span {
+    color: #999;
+    font-size: 11px;
+    font-family: "Inter", sans-serif;
+    color: #FFCA42;
+  }
+  
+  .book-info .desc {
+    width: 100%;
+    max-width: 370px;
+    color: #969AA0;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .details-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 25px 0;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  color: #6b6b6b;
+}
+
+.details-list li {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 15px;
+}
+
+.label {
+  color: #969AA0;
+  font-size: 11px;
+}
+
+.details-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 25px 0;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  color: #6b6b6b;
+}
+
+.details-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.details-list .label {
+  color: #969AA0;
+  width: 55px;
+}
+
+.details-list .colon {
+  width: 10px;
+  text-align: center;
+  color: #969AA0;
+}
+
+.details-list .value {
+  color: #969AA0;
+  flex: 1;
+  text-align: left;
+  font-size: 11px;
+}
+
+
+.value {
+  color: #6b6b6b;
+}
+
+
+  .cart-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .cart-actions input {
+    width: 60px;
+    height: 38px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-cart-btn {
+    display: flex;
+    align-items: center;
+    background: #FFCA42;
+    font-family: "Cardo", serif;
+    border: none;
+    color: #1B3764;
+    font-weight: 600;
+    padding: 10px 80px;
+    cursor: pointer;
+    transition: 0.3s;
+    gap: 10px;
+  }
+
+  .add-cart-btn
+  
+  .add-cart-btn:hover {
+    background: #d8821d;
+  }
+  
+  .book-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 25px;
+  }
+
+  .book-tabs button{
+    font-family: "Cardo", serif;
+    font-size: 11px;
+    border: none;
+    
+  }
+
+  .book-tabs button:nth-child(2){
+    background-color: #F5F8FC;
+  }
+
+  
+  .tab {
+    background: transparent;
+    color: #1b3764;
+    padding: 12px 25px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .tab.active{
+    background: #1b3764;
+    color: white;
+  }
+  
+  .tab-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+  }
+  
+  .tab-section {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .tab-section h3 {
+    color: #1b3764;
+    margin-bottom: 10px;
+    font-family: "Cardo", serif;
+    font-size: 22px;
+  }
+  
+  .tab-section p {
+    width: 100%;
+    max-width: 400px;
+    color: #969AA0;
+    line-height: 1.6;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 40px;
+    color: #1b3764;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .back-link:hover {
+    color: #f79c23;
+  }
+
+  .book-detail-services .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .book-detail-services{
+    background-color: #FFCA42;
+  }
+
+  .book-detail-services .container .detail-service{
+    text-align: center;
+  }
+
+  .detail-service{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .detail-service img{
+    width: 20px;
+    height: auto;
+  }
+
+  .detail-service #last-img{
+    width: 16px;
+    height: auto;
+  }
+
+  .detail-service-img{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1B3764;
+    padding: 8px 12px;
+    margin-left: 105px;
+  }
+
+  .detail-service-text h3{
+    font-family: "Cardo", serif;
+    font-size: 17px;
+    padding-bottom: 6px;
+  }
+  .detail-service-text p{
+    width: 100%;
+    max-width: 250px;
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    color: #1B3764;
+    line-height: 20px;
+  }
+
+  .detail-service-text{
+    margin-top: 10px;
+  }
+
+  @media screen and (max-width: 740px) {
+    .book-detail-top {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .book-image img {
+      width: 250px;
+      margin: 0 auto;
+    }
+  
+    .book-detail-services .container {
+      flex-direction: column;
+    }
+
+    .detail-service{
+      padding-top: 40px;
+      padding-bottom: 0px;
+    }
+
+    .detail-service:last-child{
+      padding-bottom: 40px;
+    }
+  
+    .detail-service-img {
+      margin-left: 0;
+      margin: 0 auto;
+    }
+  
+    .detail-service-text p {
+      margin: 0 auto;
+    }
+
+    .tab-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  @media screen and (max-width: 376px) {
+    .add-cart-btn {
+      padding: 10px 50px;
+    }
+
+    .book-info .desc {
+      width: 100%;
+      max-width: 270px;
+      color: #969AA0;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+  
+    .details-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    color: #6b6b6b;
+  }
+  
+  .details-list li {
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 15px;
+  }
+  }

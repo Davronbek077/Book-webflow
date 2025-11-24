@@ -1,0 +1,95 @@
+.notFound-banner-section{
+    width: 100%;
+    border: none;
+    background-color: #1B3764;
+    padding-bottom: 65px;
+    padding-top: 50px;
+}
+
+.notFound{
+    background-image: url("../assets/notFound.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.notFound-banner-section .container{
+    text-align: center;
+    width: 100%;
+    max-width: 430px;
+}
+
+.notFound-banner-section .container h2{
+    color: #FFFFFF;
+    font-family: "Cardo", serif;
+    padding-bottom: 25px;
+}
+
+.notFound-banner-section .container p{
+    color: #B4C7E7;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.notFound-wrapper .container{
+    display: grid;
+    place-items: center;
+    margin-top: 180px;
+}
+
+.notFound-wrapper .container img{
+    width: auto;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.notFound-wrapper .container h3{
+    font-family: "Cardo", serif;
+    color: #1B3764;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.notFound-wrapper .container p{
+    width: 100%;
+    max-width: 380px;
+    font-family: "Inter", sans-serif;
+    color: #969AA0;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.notFound-wrapper .container .notFound-btn a{
+    border: none;
+    background-color: #FFCA42;
+    padding: 8px 22px;
+    text-decoration: none;
+    font-family: "Cardo", serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.notFound-wrapper .container .notFound-btn a:focus{
+    color: #1B3764;
+}
+
+.notFound-btn{
+    margin-top: 28px;
+    margin-bottom: 180px;
+}
+
+@media screen and (max-width: 740px) {
+    .notFound-wrapper .container img{
+        width: auto;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .notFound-wrapper .container img{
+        width: auto;
+        height: 50px;
+    }
+}

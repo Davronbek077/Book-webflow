@@ -1,0 +1,99 @@
+.protected-section {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .protected-wrap{
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 75px;
+    max-width: 630px;
+    display: grid;
+    place-items: center;
+    background-color: #F3F3F3;
+  }
+  
+  .protected-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #112b55;
+    font-family: "Cardo", serif;
+  }
+  
+  .protected-desc {
+    max-width: 300px;
+    color: #969AA0;
+    font-size: 12px;
+    margin-bottom: 25px;
+    line-height: 20px;
+  }
+  
+  .protected-form {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px 40px;
+    border-radius: 12px;
+  }
+  
+  .protected-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #DCE1E9;
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+  }
+
+  .protected-input::placeholder{
+    color: #969AA0;
+    font-size: 13px;
+  }
+
+  .protected-input:focus{
+    outline: none;
+  }
+  
+  .protected-button {
+    width: 100%;
+    background-color: #FFCA42;
+    border: none;
+    color: #112b55;
+    font-weight: bold;
+    padding: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "Cardo", serif;
+  }
+  
+  .protected-button:hover {
+    background-color: #f8c034;
+  }
+  
+  .protected-content {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .error-text {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 400px) {
+    .protected-title, .protected-desc{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .protected-title{
+      font-size: 20px;
+    }
+  }
