@@ -7,7 +7,7 @@ import Footer from "./components/footer/Footer";
 import Store from "./components/pages/Store";
 import Blog from "./components/pages/Blog";
 import Licenses from "./components/pages/Licenses";
-import Changelog from "./components/pages/changelog";
+import Changelog from "./components/pages/Changelog";
 import About from "./pages/about/About";
 import Services from "./pages/services/Services";
 import Contact from "./pages/contact/Contact";
