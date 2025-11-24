@@ -1,7 +1,7 @@
 import React from "react";
 import "./Pages.css";
 import { Link } from "react-router-dom";
-import { books } from "../../data/booksData";
+import { books } from "../../data/BooksData";
 
 const Store = () => {
   return (

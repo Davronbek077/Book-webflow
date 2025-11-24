@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { books } from "../data/booksData";
+import { books } from "../data/BooksData";
 import { FiShoppingCart } from "react-icons/fi";
 import detailPng from "../assets/detailService.png";
 import detailPng2 from "../assets/detailService2.png";
